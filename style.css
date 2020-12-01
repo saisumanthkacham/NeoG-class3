@@ -120,3 +120,15 @@ hr {
 .bg-ow {
     background-color: var(--off-white);
 }
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
