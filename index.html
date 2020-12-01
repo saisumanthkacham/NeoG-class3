@@ -9,115 +9,81 @@
 </head>
 
 <body>
-    <h1>tanay's component library</h1>
-    <p>I am attending neoG camp and I want to make a library which would make all my projects look good and consisitent
-    </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Let me show you some normal text.This is free flowing and will wrap at end like a paragraph</p>
-    <small>This is relatively smaller text</small>
-    <hr>
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-
-    <div class=container>This is a fluid container and goes till end of the page</div>
-
-    <h3>center container</h3>
-
-    <div class="container container-center">this is a center container it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="/">primary link</a>
-
-    <a class="link link-secondary" href="/">secondary link</a>
-
-    <hr>
-    <h2>@lists</h2>
-    <h3>unorderd list</h3>
-    <p>the list will not have the bullets</p>
-    <ul class="list-no-bullets">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-    <h3>un ordered inline list</h3>
-    <ul class="list-no-bullets">
-        <li class="list-item-inline">inline item one</li>
-        <li class="list-item-inline">inline item two</li>
-        <li class="list-item-inline">inline item three</li>
-    </ul>
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>egg</li>
-        <li>break</li>
-    </ol>
-    <hr>
-    <h3>nav-bar</h3>
     <nav class="nav container">
 
-        <div class="nav-brand">i am a brand</div>
+        <div class="nav-brand">CODINGBABA</div>
 
         <ul class="list-no-bullets nav-pills">
 
-            <li class="list-item-inline link-active"><a class="link" href="/">home
+            <li class="list-item-inline link-active"><a class="link" href="/">Home
                 </a></li>
 
-            <li class="list-item-inline"><a class="link" href="/">products
+            <li class="list-item-inline"><a class="link" href="#Projects">Projects
                 </a></li>
 
             <li class="list-item-inline ">
-                <a class="link" href="/">about
+                <a class="link" href="#Blogs">Blog
                 </a></li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>header</h2>
     <header class="hero">
-        <img class="hero-img" src="images/web-image.svg" alt="bla bla">
-        <h1 class="hero-heading">Sai sumanth <span class="hero-name">The web developer</span></h1>
+        <img class="hero-img" src="/images/dev-sitting.svg" alt="bla bla">
+        <h1 class="hero-heading">Sai Sumanth <span class="hero-name">The web developer</span></h1>
     </header>
+    <section class="section bg-ow">
+        <div class="container container-center">
+            <h1>A little about me</h1>
+            <p>Hello I am Sai Sumanth here! an aspiring front-end developer who loves to build clean and interactive websites.</p>
 
-    <hr>
-    <h2>@section</h2>
+
+
+            <div style="height:5vh;"></div>
+        </div>
+
+    </section>
 
     <section class="section">
         <div class="container container-center">
-            <h1>white section</h1>
-            <p>Copperplate Gothic. If I see another law firm/accounting agency/corporate business use this font in their branding, it'll be too soon.Copperplate Gothic. If I see another law firm/accounting agency/corporate business use this font in their
-                branding, it'll be too soon.</p>
+            <h1>My skills</h1>
+            <p>HTML,CSS,JS,C,C++ and I also know Photoshop, Illustrator and Adobe XD</p>
+            <div style="height:5vh;"></div>
         </div>
     </section>
 
     <section class="section bg-ow">
         <div class="container container-center">
-            <h1>off white section</h1>
-            <p>Copperplate Gothic. If I see another law firm/accounting agency/corporate business use this font in their branding, it'll be too soon.Copperplate Gothic. If I see another law firm/accounting agency/corporate business use this font in their
-                branding, it'll be too soon.</p>
+            <a name="Projects"></a>
+            <h1>My Projects</h1>
+            <p>As a beginner I have done few projects, click the below button to have a glance at them.</p>
+            <a class="link link-primary" href="https://github.com/saisumanthkacham?tab=repositories">Projects</a>
+            <div style="height:5vh;"></div>
         </div>
     </section>
-    <hr>
-    <h2>@footer</h2>
+    <br>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Blog</h1>
+            <a name="Blogs"></a>
+            <p>I am also writing my technical and non technical and I want to showcase them.</p>
+            <a class="link link-secondary" href="https://saisumanthkacham.wordpress.com">Blog</a>
+            <div style="height:5vh;"></div>
+
+        </div>
+
+
+    </section>
+
     <footer class="footer">
-        <div>header inside footer</div>
+        <div class="footer-header">Social Profiles</div>
         <ul class="list-no-bullets">
-            <li class="list-item-inline"> <a class="link" href="/"> social one</a> </li>
-            <li class="list-item-inline"> <a class="link" href="/"> social two</a> </li>
-            <li class="list-item-inline"> <a class="link" href="/"> social three</a> </li>
+            <li class="list-item-inline"> <a class="link" href="https://www.linkedin.com/in/kacham-sai-sumanth-33a513176/"> Linkedin</a> </li>
+            <li class="list-item-inline"> <a class="link" href="https://www.behance.net/prographitech"> Behance</a> </li>
+            <li class="list-item-inline"> <a class="link" href="https://github.com/saisumanthkacham"> Github</a> </li>
+            <li class="list-item-inline"> <a class="link" href="https://www.instagram.com/saisumanth_kacham/"> Instagram</a> </li>
         </ul>
 
     </footer>
 
-
-    <div style="height:30vh;"></div>
 </body>
 
 </html>
