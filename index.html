@@ -10,7 +10,8 @@
 
 <body>
     <h1>tanay's component library</h1>
-    <p>I am attending neoG camp and I want to make a library which would make all my projects look good and consisitent</p>
+    <p>I am attending neoG camp and I want to make a library which would make all my projects look good and consisitent
+    </p>
 
     <hr>
 
@@ -27,7 +28,7 @@
 
     <h3>center container</h3>
 
-    <div class="container center-container">this is a center container it will go till the specified width</div>
+    <div class="container container-center">this is a center container it will go till the specified width</div>
 
     <hr>
 
@@ -58,35 +59,48 @@
         <li>break</li>
     </ol>
     <hr>
+    <h3>nav-bar</h3>
+    <nav class="nav container">
 
-    <nav>
-        <div>i am a brand</div>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/">products</a></li>
-            <li><a href="/">about</a></li>
+        <div class="nav-brand">i am a brand</div>
+
+        <ul class="list-no-bullets nav-pills">
+
+            <li class="list-item-inline link-active"><a class="link" href="/">home
+                </a></li>
+
+            <li class="list-item-inline"><a class="link" href="/">products
+                </a></li>
+
+            <li class="list-item-inline ">
+                <a class="link" href="/">about
+                </a></li>
         </ul>
     </nav>
 
     <hr>
 
     <h2>header</h2>
-    <header>
-        <img src="images/web-image.svg" height="450px" width="450px" alt="">
-        <h1>heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/web-image.svg" alt="bla bla">
+        <h1 class="hero-heading">Sai sumanth <span class="hero-name">The web developer</span></h1>
     </header>
 
     <hr>
     <h2>@section</h2>
 
-    <section>
-        <h3>white section</h3>
-        <p>this will have white bg</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>this will have white bg</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>this will have gray bg</p>
+    <section class="section bg-ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>this will have gray bg</p>
+        </div>div>
     </section>
     <hr>
     <h2>@footer</h2>
