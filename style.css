@@ -10,6 +10,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.grey-color {
+    color: var(--dark-gray: #6B7280;
+    );
+}
+
 hr {
     margin: 2rem 0;
 }
@@ -57,7 +62,7 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
 
 
