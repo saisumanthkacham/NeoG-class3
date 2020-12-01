@@ -126,6 +126,7 @@ hr {
 
 .bg-ow {
     background-color: var(--off-white);
+    display: block;
 }
 
 .footer {
