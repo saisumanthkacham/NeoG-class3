@@ -63,6 +63,7 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0.5rem 0.5rem;
+    margin: 1rem 0.5rem;
 }
 
 
@@ -126,7 +127,6 @@ hr {
 
 .bg-ow {
     background-color: var(--off-white);
-    display: block;
 }
 
 .footer {
