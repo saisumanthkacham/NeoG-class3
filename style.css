@@ -73,7 +73,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1.7rem;
+    border-bottom-left-radius: 2rem;
     margin: 0;
 }
 
@@ -136,8 +136,7 @@ hr {
     padding: 2rem 1rem;
     color: white;
     text-align: center;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+    border-top-right-radius: 2rem;
 }
 
 .footer .link {
