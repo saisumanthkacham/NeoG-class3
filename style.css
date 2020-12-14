@@ -40,6 +40,17 @@ hr {
     text-decoration: none;
 }
 
+.link:focus {
+    background: black;
+    color: white;
+}
+
+.link:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     /*      doubt     */
